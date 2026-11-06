@@ -1,0 +1,12 @@
+Запуск Python-части (в терминале из папки проекта):
+1) Установите Python.
+2) Установите uv (если используете его): https://docs.astral.sh/uv/
+3) uv init
+4) uv add sqlalchemy
+5) Положите university.sqlite и main_sqlite3.py / main_sqlalchemy.py в папку проекта.
+6) uv run python main_sqlite3.py
+7) uv run python main_sqlalchemy.py
+
+Если uv не используется:
+    python -m pip install sqlalchemy
+    python main_sqlalchemy.py
